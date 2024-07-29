@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://github.com/{jhenker}.github.io/{the_site}",
+  "homepage": "https://github.com/jhenker.github.io/the_site",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{jhenker}.github.io/{the_site}'",
+    "build-gh": "parcel build --public-url 'https://jhenker.github.io/the_site'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
